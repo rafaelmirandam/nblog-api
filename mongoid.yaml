@@ -3,7 +3,7 @@ development:
         default:
             database: nblog-dev
             hosts:
-                - 'ds125623.mlab.com:25623'
+                - 'ds017736.mlab.com:17736'
             options:
                 user: dev-app
                 password: dev#123
@@ -12,25 +12,25 @@ qa:
         default:
             database: nblog-qa
             hosts:
-                - 'ds149551.mlab.com:49551'
+                - 'ds137826.mlab.com:37826'
             options:
                 user: qa-app
                 password: qa#123
-uat:
-    clients:
-        default:
-            database: nblog-uat
-            hosts:
-                - 'ds125623.mlab.com:25623'
-            options:
-                user: uat-app
-                password: uat#123
-production:
-    clients:
-        default:
-            database: nblog-prod
-            hosts:
-                - 'ds149551.mlab.com:49551'
-            options:
-                user: prod-app
-                password: prod#123
+# uat:
+#     clients:
+#         default:
+#             database: nblog-uat
+#             hosts:
+#                 - 'ds125623.mlab.com:25623'
+#             options:
+#                 user: uat-app
+#                 password: uat#123
+# production:
+#     clients:
+#         default:
+#             database: nblog-prod
+#             hosts:
+#                 - 'ds149551.mlab.com:49551'
+#             options:
+#                 user: prod-app
+#                 password: prod#123
